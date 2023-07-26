@@ -9,11 +9,11 @@
 ```
 ## static_map_test.py
 - example response
-![Alt text](map_image.png)
+![Alt text](images/map_image.png.png)
 
 ## sms.py
 - example result
-![Alt text](image.png)
+![Alt text](images/sms_exmaple.png)
 회원가입 로직에 넣은 뒤, 해당 인증번호를 처리하는 로직을 넣으면 참 좋겠다.
 예를들어서 전화번호 인증 화면에서, 처음 send_sns 함수를 부른 뒤에 어디 변수에 넣어두고 매개 변수에 verify_auth_number(): 함수에서
 post된 request body의 auth_number과 비교해서 status code를 뱉는..? 
